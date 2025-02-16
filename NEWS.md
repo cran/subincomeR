@@ -1,4 +1,12 @@
+# subincomeR 0.3.0
+
+* Updated DOSE dataset to version 2.10
+
 # subincomeR 0.2.2
+
+* Removed writing to user's home filespace by default (using tempdir() instead)
+* Added explicit path parameter throughout to allow users to specify custom storage locations
+* Added download confirmation for large files with option to skip in non-interactive sessions
 
 # subincomeR 0.2.1
 
